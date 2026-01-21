@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Image Replacer Toggle",
+  "version": "1.91",
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "画像置換 ON / OFF"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
