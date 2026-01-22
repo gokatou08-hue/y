@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Image Replacer Toggle",
-  "version": "1.91",
+  "name": "野獣先輩ウイルス",
+  "version": "1.1",
   "permissions": ["storage"],
   "background": {
     "service_worker": "background.js"
